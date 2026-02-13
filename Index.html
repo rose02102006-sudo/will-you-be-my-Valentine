@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>For Infant John Praveen 🤍🎀</title>
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka+One:wght@400&display=swap" rel="stylesheet">
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { 
+            font-family: 'Fredoka One', cursive; 
+            background: linear-gradient(135deg, #ffeef8 0%, #f8f9ff 50%, #e8f5e8 100%);
+            min-height: 100vh;
+            overflow-x: hidden;
+            position: relative;
+        }
+        .header { 
+            background: rgba(255, 182, 193, 0.9); 
+            padding: 2rem; 
+            text-align: center; 
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+        }
+        .header h1 { 
+            font-size: 3.5rem; 
+            background: linear-gradient(45deg, #ff69b4, #ba55d3); 
+            -webkit-background-clip: text; 
+            -webkit-text-fill-color: transparent; 
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.1);
+            animation: bounce 2s infinite;
+        }
+        .valentines-day {
+            font-size: 1.8rem;
+            color: #ff1493;
+            margin-top: 0.5rem;
+            text-shadow: 1px 1px 2px rgba(255,255,255,0.8);
+            animation: pulse 2s infinite;
+        }
+        .hero { 
+            text-align: center; 
+            padding: 4rem 2rem; 
+            max-width: 800px; 
+            margin: 0 auto;
+        }
+        .hero h2 { 
+            font-size: 2.5rem; 
+            color: #ff1493; 
+            margin-bottom: 1rem;
+            text-shadow: 1px 1px 2px rgba(255,255,255,0.8);
+        }
+        .love-note { 
+            background: rgba(255,255,255,0.95); 
+            padding: 3rem; 
+            border-radius: 25px; 
+            box-shadow: 0 15px 40px rgba(255,182,193,0.4);
+            margin: 2rem 0;
+            font-size: 1.4rem;
+            line-height: 1.7;
+            border: 4px solid #ffb6c1;
+            position: relative;
+            overflow: hidden;
+        }
+        .love-note::before {
+            content: '';
+            position: absolute;
+            top: -50%;
+            left: -50%;
+            width: 200%;
+            height: 200%;
+            background: linear-gradient(45deg, transparent, rgba(255,182,193,0.1), transparent);
+            animation: shimmer 3s infinite;
+        }
+        .love-note p {
+            position: relative;
+            z-index: 1;
+        }
+        .hearts { 
+            font-size: 3rem; 
+            animation: float 3s ease-in-out infinite; 
+            color: #ff69b4;
+        }
+        button { 
+            background: linear-gradient(45deg, #ff69b4, #ff1493); 
+            color: white; 
+            border: none; 
+            padding: 1rem 2.5rem; 
+            border-radius: 50px; 
+            font-family: 'Fredoka One', cursive;
+            font-size: 1.2rem;
+            cursor: pointer; 
+            transition: all 0.3s; 
+            box-shadow: 0 5px 15px rgba(255,105,180,0.4);
+            margin: 1rem;
+        }
+        button:hover { 
+            transform: translateY(-5px) scale(1.05); 
+            box-shadow: 0 8px 25px rgba(255,105,180,0.6);
+        }
+        .floating-hearts {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            pointer-events: none;
+            z-index: -1;
+        }
+        .heart {
+            position: absolute;
+            color: #ffb6c1;
+            font-size: 1.5rem;
+            animation: floatUp 6s linear infinite;
+        }
+        @keyframes floatUp {
+            0% { transform: translateY(100vh) rotate(0deg); opacity: 1; }
+            100% { transform: translateY(-100px) rotate(360deg); opacity: 0; }
+        }
+        @keyframes bounce {
+            0%, 20%, 50%, 80%, 100% { transform: translateY(0); }
+            40% { transform: translateY(-10px); }
+            60% { transform: translateY(-5px); }
+        }
+        @keyframes float {
+            0%, 100% { transform: translateY(0px); }
+            50% { transform: translateY(-10px); }
+        }
+        @keyframes pulse {
+            0%, 100% { transform: scale(1); }
+            50% { transform: scale(1.05); }
+        }
+        @keyframes shimmer {
+            0% { transform: translateX(-100%) translateY(-100%) rotate(45deg); }
+            100% { transform: translateX(100%) translateY(100%) rotate(45deg); }
+        }
+        @media (max-width: 768px) { 
+            .header h1 { font-size: 2.5rem; }
+            .hero h2 { font-size: 2rem; }
+            .valentines-day { font-size: 1.4rem; }
+            .love-note { padding: 2rem; font-size: 1.2rem; }
+        }
+    </style>
+</head>
+<body>
+    <div class="floating-hearts" id="heartsContainer"></div>
+    
+    <header class="header">
+        <h1>Infant John Praveen 🤍</h1>
+        <p class="valentines-day">Happy Valentine's Day my love 💕</p>
+    </header>
+
+    <section class="hero">
+        <div class="hearts">Forever Mine?🫴🏻</div>
+        <div class="love-note">
+            <p>To my dearest <strong>Infant John Praveen</strong>,</p>
+            <p>Every beat of my heart whispers your name. You are the light that guides me through my darkest nights, the warmth that melts away all my fears. Your tiny hands hold my entire world, and your precious smile is my reason for every breath I take.</p>
+            <p>From the moment our souls connected, I knew you were my forever. I love you more deeply than the oceans, higher than the stars, today on Valentine's Day and for every tomorrow. You are my heart living outside my body.I Love You bubu🤍😘</p>
+        </div>
+        <div style="margin: 2rem 0;">
+            <button onclick="showLoveMessage()">Click for Love 💌</button>
+            <button onclick="createHeartBurst()">Heart Burst! 💥</button>
+        </div>
+        <p style="color: #888; font-size: 1rem;">Made with endless love just for you ❤️</p>
+    </section>
+
+    <script>
+        // Floating hearts background
+        function createFloatingHeart() {
+            const heart = document.createElement('div');
+            heart.className = 'heart';
+            heart.innerHTML = ['🤍', '💕', '💗', '🎀', '✨'][Math.floor(Math.random() * 5)];
+            heart.style.left = Math.random() * 100 + 'vw';
+            heart.style.animationDuration = (Math.random() * 3 + 4) + 's';
+            document.getElementById('heartsContainer').appendChild(heart);
+            setTimeout(() => heart.remove(), 7000);
+        }
+        setInterval(createFloatingHeart, 800);
+
+        // Love message
+        function showLoveMessage() {
+            const messages = [
+                "I love you to the moon and back! 🌙💕",
+                "You're my favorite notification 💖",
+                "Forever & always yours ❤️",
+                "You make my heart skip beats 💓",
+                "My sunshine on cloudy days ☀️",
+                "You're my Valentine's forever 💕"
+            ];
+            alert(messages[Math.floor(Math.random() * messages.length)]);
+        }
+
+        // Enhanced FULL PAGE heart burst effect
+        function createHeartBurst() {
+            for(let i = 0; i < 50; i++) {  // More hearts for full coverage
+                setTimeout(() => {
+                    const heart = document.createElement('div');
+                    heart.innerHTML = ['Love', '💕', '💗', '🎀', '🤍', '✨'][Math.floor(Math.random() * 6)];
+                    
+                    // Random position across ENTIRE screen
+                    heart.style.position = 'fixed';
+                    heart.style.left = Math.random() * 100 + '%';
+                    heart.style.top = Math.random() * 100 + '%';
+                    heart.style.fontSize = (Math.random() * 2 + 1.5) + 'rem';  // Random sizes
+                    heart.style.pointerEvents = 'none';
+                    heart.style.zIndex = '9999';
+                    
+                    // Enhanced animation that spreads out from center
+                    const angle = (i / 50) * Math.PI * 2;  // Full circle distribution
+                    const distance = 100 + Math.random() * 200;  // Spread distance
+                    const duration = 2 + Math.random() * 2;  // Random duration
+                    
+                    heart.style.animation = `
+                        ${distance}px ${duration}s cubic-bezier(0.25, 0.46, 0.45, 0.94) forwards,
+                        fadeOut ${duration}s ease-out forwards
+                    `;
+                    
+                    document.body.appendChild(heart);
+                    setTimeout(() => heart.remove(), duration * 1000);
+                }, i * 50);  // Slower stagger for better effect
+            }
+        }
+
+        // Add CSS for heart burst animations dynamically
+        const style = document.createElement('style');
+        style.textContent = `
+            @keyframes fadeOut {
+                0% { opacity: 1; }
+                80% { opacity: 1; }
+                100% { opacity: 0; }
+            }
+        `;
+        document.head.appendChild(style);
+    </script>
+</body>
+</html>
